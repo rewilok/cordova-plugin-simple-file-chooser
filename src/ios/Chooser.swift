@@ -1,7 +1,8 @@
 import UIKit
 import MobileCoreServices
 import Foundation
-import Cordova
+// No such module 'Cordova'. I am currently unable to find a better solution than to comment out the following line:
+// import Cordova
 
 @objc(Chooser)
 class Chooser : CDVPlugin {
